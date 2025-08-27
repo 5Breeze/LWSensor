@@ -6,12 +6,10 @@ BTHome 协议是一种轻量级的蓝牙通信协议，专为智能家居传感�
 
 本项目基于 BTHome 协议，结合 TI 霍尔传感器与光度传感器，实现了门窗状态、光照强度、电池电压等数据的精准采集与上报。核心硬件使用了 **CH592F** MCU，整体电路设计极为精简，无需使用任何电阻元件即可完成焊接组装。
 
-![image.png](https://image.lceda.cn/oshwhub/pullImage/602dca35adf847d78faea9591d3973d8.png)
 ---
 
 ## 功能与采集内容
 
-![image.png](https://image.lceda.cn/oshwhub/pullImage/8d02bd3cbb414e1e9c6565a95adef713.png)
 ### 1. 光照强度
 - 采样频率：每 40 秒采集一次
 - 传感器：TI 光度传感器
@@ -44,8 +42,6 @@ BTHome 协议是一种轻量级的蓝牙通信协议，专为智能家居传感�
 
 ## 已知问题与待完善事项
 
-- **低功耗测试尚未完成**  
-  目前尚未进行完整的低功耗性能测试。欢迎有低功耗测试设备的小伙伴协助测试并反馈结果。
 - **天线部分匹配不好**  
 ---
 
@@ -53,7 +49,6 @@ BTHome 协议是一种轻量级的蓝牙通信协议，专为智能家居传感�
 
 ### 1. 固件烧录
 
-![image.png](https://image.lceda.cn/oshwhub/pullImage/27519ddb56624b12a8d540403e7e1d3c.png)
 - 使用 **WCH_TOOL** 工具进行固件烧录。
 - 烧录流程简单，支持量产化操作。
 
@@ -63,7 +58,6 @@ BTHome 协议是一种轻量级的蓝牙通信协议，专为智能家居传感�
 - 设备通常会自动弹出识别，显示名称为 **LWSensor**。
 - 完成添加后可实时查看传感器数据，并支持自动化联动。
 
-![image.png](https://image.lceda.cn/oshwhub/pullImage/10100f125a6c448793fd7c042f4f5e3a.png)
 ---
 
 ## 通信机制补充说明
@@ -76,4 +70,4 @@ BTHome 协议是一种轻量级的蓝牙通信协议，专为智能家居传感�
 
 ---
 
- <span style="color:red">本项目禁止商用，仅开源固件和硬件部分</span> 
+ <span style="color:red">本项目禁止商用</span> 
